@@ -3,52 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy policy for AlreadyGotIt.">
-  <title>Privacy Policy · AlreadyGotIt</title>
+  <meta name="description" content="Privacy policy for Atlas.">
+  <title>Privacy Policy · Atlas</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main>
-    <a class="back" href="index.html">← AlreadyGotIt</a>
-    <p class="eyebrow">Effective October 15, 2026</p>
+    <a class="back" href="index.html">← Atlas</a>
+    <p class="eyebrow">Effective October 17, 2026</p>
     <h1>Privacy Policy</h1>
 
     <section>
       <h2>Overview</h2>
-      <p>AlreadyGotIt is a private, self-hosted application used by its operator to maintain a personal product ownership catalog. It is not offered as a public service and does not accept public user accounts.</p>
+      <p>Atlas is a private, self-hosted system used by its operator. It is not offered as a public service and does not accept public user accounts. Google account access is limited to the operator's own Gmail account and to the features below.</p>
     </section>
 
     <section>
       <h2>Google data accessed</h2>
-      <p>With the operator's authorization, AlreadyGotIt uses the Gmail read-only scope to search for and retrieve purchase-related messages from supported retailers. It may process and store:</p>
+      <p><strong>AlreadyGotIt</strong> uses the Gmail read-only scope to search for and retrieve purchase-related messages from supported retailers. It may process and store:</p>
       <ul>
         <li>Gmail message and thread identifiers;</li>
         <li>message sender, subject, date, headers, and message body;</li>
         <li>parsed order numbers, products, colors, sizes, prices, and order dates; and</li>
-        <li>OAuth credentials required to maintain authorized read-only access.</li>
+        <li>OAuth credentials required to maintain authorized access.</li>
       </ul>
-      <p>The application cannot send, modify, label, or delete Gmail messages.</p>
+      <p>AlreadyGotIt does not send, label, or delete Gmail messages.</p>
+      <p><strong>Gmail Triage</strong> uses the Gmail modify scope to read messages and, for senders the operator has marked, apply the Potential Junk label and remove those messages from the inbox. It may process and store:</p>
+      <ul>
+        <li>Gmail message identifiers;</li>
+        <li>sender, subject, date, and a short snippet;</li>
+        <li>the operator's keep or junk choice for a sender; and</li>
+        <li>OAuth credentials required to maintain authorized access.</li>
+      </ul>
+      <p>Gmail Triage does not send email and does not permanently delete messages.</p>
     </section>
 
     <section>
       <h2>How data is used</h2>
-      <p>Data is used solely to identify purchase records, reconcile them with an existing ownership catalog, and provide the operator's browser extension with a private product-ownership snapshot.</p>
-      <p>Google user data is not sold, rented, used for advertising, used to build advertising profiles, or transferred to third parties. It is not used to train generalized artificial-intelligence or machine-learning models.</p>
+      <p>AlreadyGotIt uses Gmail data solely to identify purchase records, reconcile them with an existing ownership catalog, and provide the operator's browser extension with a private product-ownership snapshot.</p>
+      <p>Gmail Triage uses Gmail data solely to help the operator sort incoming mail and to keep moving new mail from senders the operator has already marked.</p>
+      <p>To rate a message, Gmail Triage may send the sender address, subject, and a short snippet to OpenAI through the operator's private Atlas AI gateway. The message body is not sent for that rating. Atlas does not use Google user data to train its own models.</p>
+      <p>Google user data is not sold, rented, used for advertising, or used to build advertising profiles.</p>
     </section>
 
     <section>
       <h2>Storage and security</h2>
-      <p>OAuth credentials and imported data are stored on the operator's privately administered Atlas server. Application data routes require authentication, the database is not publicly exposed, and the operational application remains available only on the operator's local network.</p>
+      <p>OAuth credentials and imported data are stored on the operator's privately administered Atlas server. Application data routes require authentication, the database is not publicly exposed, and the operational applications remain available only on the operator's local network.</p>
     </section>
 
     <section>
       <h2>Retention and deletion</h2>
-      <p>Imported records are retained until the operator deletes them from the self-hosted database. Disconnecting Gmail removes the locally stored OAuth token and stops future access; previously imported records remain until separately deleted. The operator can also revoke access from the Google Account permissions page.</p>
+      <p>Imported records are retained until the operator deletes them from the self-hosted database. Disconnecting Gmail removes the locally stored OAuth token and stops future access; previously imported records remain until separately deleted. Messages moved to Potential Junk remain in the operator's Gmail account until the operator deletes them there. The operator can also revoke access from the Google Account permissions page.</p>
     </section>
 
     <section>
       <h2>Limited Use</h2>
-      <p>AlreadyGotIt's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+      <p>Atlas's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
     </section>
 
     <section>
