@@ -37,7 +37,7 @@ main {
   flex: 0 0 72px;
   place-items: center;
   border: 1px solid #3fb950;
-  border-radius: 18px;
+  border-radius: 8px;
   background: rgba(46, 160, 67, 0.14);
   color: #56d364;
   font-size: 40px;
@@ -87,7 +87,7 @@ section {
   margin: 24px 0;
   padding: 24px 26px;
   border: 1px solid #30363d;
-  border-radius: 14px;
+  border-radius: 8px;
   background: rgba(22, 27, 34, 0.88);
 }
 
